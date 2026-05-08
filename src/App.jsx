@@ -1,11 +1,12 @@
+import Header from "./components/Header"
+import Main from "./components/Main"
 
-function App() {
-
-  return (
-    <>
-      <p className="text">I am working</p>
-    </>
-  )
+export default function App() {
+    
+    return (
+        <>
+            <Header />
+            <Main />
+        </>
+    )
 }
-
-export default App
